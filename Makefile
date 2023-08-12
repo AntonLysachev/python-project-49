@@ -1,4 +1,4 @@
 install:
 		poerty install
 brain-games:
-		poerty run brain-games
+		poetry run brain-games
