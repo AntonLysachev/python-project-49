@@ -23,17 +23,18 @@ def game():
                 print('Correct!')
                 counter += 1
             else:
-                print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+                print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
                 print(f"Let's try again, {name}!")
                 break
         elif answer == 'yes':
             print('Correct!')
             counter += 1
         else:
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
             print(f"Let's try again, {name}!")
             break
-    print(f'Congratulations, {name}!')
+    if counter == 3:
+        print(f'Congratulations, {name}!')
 
 
 def main():
