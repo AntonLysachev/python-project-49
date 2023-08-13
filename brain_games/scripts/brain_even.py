@@ -14,11 +14,11 @@ def game():
     counter = 0
     name = cli.welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    while(counter < 3):
+    while (counter < 3):
         numb = random.randint(0, 100)
         print(f'Question: {numb}')
         answer = prompt.string('Your answer: ')
-        if numb%2:
+        if numb % 2:
             if answer == 'no':
                 print('Correct!')
                 counter += 1
@@ -34,6 +34,7 @@ def game():
             print(f"Let's try again, {name}!")
             break
     print(f'Congratulations, {name}!')
+
 
 def main():
     greetings()
