@@ -13,9 +13,9 @@ def even():
 
 def calc():
     global meaning
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
-    if (random.randint(1, 100)) % 2:
+    num1 = random.randint(1, 20)
+    num2 = random.randint(1, 20)
+    if (random.randint(1, 10)) % 2:
         result = num1 * num2
         meaning = f'{num1} * {num2}'
     else:
