@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from scripts import compare
+from brain_games.scripts import compare
 from brain_games import cli
 
 
