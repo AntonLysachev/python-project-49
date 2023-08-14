@@ -25,11 +25,10 @@ def calc():
 
 
 def compare(name, switch):
-      
     counter = 0
     while (counter < 3):
         if switch == 'e':
-         game = even()
+            game = even()
         elif switch == 'c':
             game = calc()
         question = game
@@ -41,6 +40,6 @@ def compare(name, switch):
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{question}'.")
             print(f"Let's try again, {name}!")
             break
-        counter +=1
+        counter += 1
     if counter == 3:
         print(f'Congratulations, {name}!')
