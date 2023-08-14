@@ -23,6 +23,11 @@ def calc():
         meaning = f'{num1} + {num2}'
     return str(result)
 
+def gcd():
+    global meaning
+    
+    return str(result)
+
 
 def compare(name, switch):
     counter = 0
