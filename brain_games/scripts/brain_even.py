@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 import random
-import sys
-sys.path.append('d:\\Github\\python-project-49\\brain_games')
-import cli
+from brain_games import cli
 
 
 def greetings():
