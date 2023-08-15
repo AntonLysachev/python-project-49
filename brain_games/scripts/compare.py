@@ -1,7 +1,7 @@
 import random
 import prompt
-from brain_games.scripts.calculation import even
-from brain_games.scripts.calculation import calc
+from brain_games.calculation import even
+from brain_games.calculation import calc
 
 
 def gcd():
