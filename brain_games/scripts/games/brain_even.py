@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 from brain_games.scripts import compare
 from brain_games import cli
-
-
-def greetings():
-    print('Welcome to the Brain Games!')
+from brain_games import greetings
 
 
 def game():
-    name = cli.welcome_user()
+    name = greetings.greetings()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     compare.compare(name, 'evn')
 
 
 def main():
-    greetings()
     game()
 
 

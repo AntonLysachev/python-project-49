@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 from brain_games.scripts import compare
 from brain_games import cli
-
-
-def greetings():
-    print('Welcome to the Brain Games!')
+from brain_games import greetings
 
 
 def game():
-    name = cli.welcome_user()
+    name = greetings.greetings()
     print('What is the result of the expression?')
     compare.compare(name, 'cac')
 
 
 def main():
-    greetings()
     game()
 
 
