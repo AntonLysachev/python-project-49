@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from brain_games import compare
-from brain_games import cli
 from brain_games import greetings
 
 
@@ -16,4 +15,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
