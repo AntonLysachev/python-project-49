@@ -6,7 +6,7 @@
 
 | Asciinema DEMO                                                              | Name                                                    |
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
-| https://asciinema.org/a/GkZ1c5kvIiR4eU7Nk7TT1Swgq                           | Brain-even                                              |
+| https://asciinema.org/a/ISVP4qCUEqhUWZu8L6YjjH7Rs                           | Brain-even                                              |
 | https://asciinema.org/a/3ONycxRlf2sSQsoHGVgo6MbIh                           | Brain-cslc                                              |
 | https://asciinema.org/a/v2x1MF2x8HYxDkQucebCB7ujn                           | Brain-gcd                                               |
 | https://asciinema.org/a/gGS32es4NIkjVR6PEDrVfTv3M                           | Brain-progression                                       |
