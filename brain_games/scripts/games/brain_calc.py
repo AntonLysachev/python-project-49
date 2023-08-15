@@ -10,7 +10,7 @@ def greetings():
 def game():
     name = cli.welcome_user()
     print('What is the result of the expression?')
-    compare.compare(name, 'c')
+    compare.compare(name, 'cac')
 
 
 def main():

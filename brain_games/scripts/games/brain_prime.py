@@ -9,8 +9,8 @@ def greetings():
 
 def game():
     name = cli.welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    compare.compare(name, 'evn')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    compare.compare(name, 'pre')
 
 
 def main():

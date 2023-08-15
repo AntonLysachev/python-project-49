@@ -10,7 +10,7 @@ def greetings():
 def game():
     name = cli.welcome_user()
     print('Find the greatest common divisor of given numbers.')
-    compare.compare(name, 'g')
+    compare.compare(name, 'gcd')
 
 
 def main():

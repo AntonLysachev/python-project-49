@@ -4,19 +4,22 @@ from brain_games.calculation import even
 from brain_games.calculation import calc
 from brain_games.calculation import gcd
 from brain_games.calculation import progression
+from brain_games.calculation import prime
 
 
 def compare(name, switch):
     counter = 0
     while (counter < 3):
-        if switch == 'e':
+        if switch == 'evn':
             game = even.even()
-        elif switch == 'c':
+        elif switch == 'cac':
             game = calc.calc()
-        elif switch == 'g':
+        elif switch == 'gcd':
             game = gcd.gcd()
-        elif switch == 'p':
+        elif switch == 'prn':
             game = progression.progression()
+        elif switch == 'pre':
+            game = prime.prime()
         question = game[1]
         meaning = game[0]
         print(f'Question: {meaning}')

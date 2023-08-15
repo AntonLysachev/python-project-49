@@ -10,7 +10,7 @@ def greetings():
 def game():
     name = cli.welcome_user()
     print('What number is missing in the progression?')
-    compare.compare(name, 'p')
+    compare.compare(name, 'prn')
 
 
 def main():
