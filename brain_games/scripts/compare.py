@@ -1,27 +1,8 @@
 import random
 import prompt
+from brain_games.scripts.calculation import even
+from brain_games.scripts.calculation import calc
 
-
-def even():
-    global meaning
-    meaning = str(random.randint(1, 100))
-    if int(meaning) % 2:
-        return 'no'
-    else:
-        return 'yes'
-
-
-def calc():
-    global meaning
-    num1 = random.randint(1, 20)
-    num2 = random.randint(1, 20)
-    if (random.randint(1, 10)) % 2:
-        result = num1 * num2
-        meaning = f'{num1} * {num2}'
-    else:
-        result = num1 + num2
-        meaning = f'{num1} + {num2}'
-    return str(result)
 
 def gcd():
     global meaning
@@ -33,10 +14,11 @@ def compare(name, switch):
     counter = 0
     while (counter < 3):
         if switch == 'e':
-            game = even()
+            game = even.even()
         elif switch == 'c':
-            game = calc()
-        question = game
+            game = calc.calc()
+        question = game[1]
+        meaning = game[0]
         print(f'Question: {meaning}')
         answer = prompt.string('Your answer: ')
         if answer == question:
