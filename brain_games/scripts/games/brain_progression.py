@@ -9,8 +9,8 @@ def greetings():
 
 def game():
     name = cli.welcome_user()
-    print('Find the greatest common divisor of given numbers.')
-    compare.compare(name, 'g')
+    print('What number is missing in the progression?')
+    compare.compare(name, 'p')
 
 
 def main():
@@ -20,4 +20,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    

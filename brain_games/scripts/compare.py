@@ -3,6 +3,7 @@ import prompt
 from brain_games.calculation import even
 from brain_games.calculation import calc
 from brain_games.calculation import gcd
+from brain_games.calculation import progression
 
 
 def compare(name, switch):
@@ -14,6 +15,8 @@ def compare(name, switch):
             game = calc.calc()
         elif switch == 'g':
             game = gcd.gcd()
+        elif switch == 'p':
+            game = progression.progression()
         question = game[1]
         meaning = game[0]
         print(f'Question: {meaning}')
