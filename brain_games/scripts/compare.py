@@ -2,12 +2,7 @@ import random
 import prompt
 from brain_games.calculation import even
 from brain_games.calculation import calc
-
-
-def gcd():
-    global meaning
-    
-    return str(result)
+from brain_games.calculation import gcd
 
 
 def compare(name, switch):
@@ -17,6 +12,8 @@ def compare(name, switch):
             game = even.even()
         elif switch == 'c':
             game = calc.calc()
+        elif switch == 'g':
+            game = gcd.gcd()
         question = game[1]
         meaning = game[0]
         print(f'Question: {meaning}')
