@@ -14,6 +14,8 @@ def progression():
             prog.append(prog[i-1]+rule)
     result = prog[numb]
     prog[numb] = '..'
-    meaning = prog
+    meaning = ''
+    for i in range(len(prog)):
+        meaning += str(prog[i]) + ' '
     data = (meaning, str(result))
     return data
