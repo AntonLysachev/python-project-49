@@ -9,9 +9,9 @@ def progression():
     r = range(10)
     for i in r:
         if i == 0:
-            prog.append(i+start)
+            prog.append(i + start)
         else:
-            prog.append(prog[i-1]+rule)
+            prog.append(prog[i-1] + rule)
     result = prog[numb]
     prog[numb] = '..'
     meaning = ''
