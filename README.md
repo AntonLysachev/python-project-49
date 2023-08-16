@@ -6,11 +6,11 @@
 
 | Asciinema DEMO                                                              | Name                                                    |
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
-| https://asciinema.org/a/ISVP4qCUEqhUWZu8L6YjjH7Rs                           | Brain-even                                              |
-| https://asciinema.org/a/3ONycxRlf2sSQsoHGVgo6MbIh                           | Brain-cslc                                              |
-| https://asciinema.org/a/v2x1MF2x8HYxDkQucebCB7ujn                           | Brain-gcd                                               |
-| https://asciinema.org/a/gGS32es4NIkjVR6PEDrVfTv3M                           | Brain-progression                                       |
-| https://asciinema.org/a/yoUsnoOd86ey4QLqu1U1eFBVq                           | Brain-prime                                             |
+| https://asciinema.org/a/SCG0ZXeJPR0lwzf6PFaaYRlvG                           | Brain-even                                              |
+| https://asciinema.org/a/t5hDUhvNBhnDTIEUuKXoHOcjY                           | Brain-cslc                                              |
+| https://asciinema.org/a/dQH3AxNVFmKrqSrpowBMTD1Fl                           | Brain-gcd                                               |
+| https://asciinema.org/a/XaDfEY7ulmotMDhZT9ZJ5A6hu                           | Brain-progression                                       |
+| https://asciinema.org/a/L4FfNxO11l9ut9n8BpjbE8MMv                           | Brain-prime                                             |
 
 | Description                                                                           | Games                                         |
 |---------------------------------------------------------------------------------------|-----------------------------------------------|
