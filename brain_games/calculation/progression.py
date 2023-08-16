@@ -11,7 +11,7 @@ def progression():
         if i == 0:
             prog.append(i + start)
         else:
-            prog.append(prog[i-1] + rule)
+            prog.append(prog[i - 1] + rule)
     result = prog[numb]
     prog[numb] = '..'
     meaning = ''
