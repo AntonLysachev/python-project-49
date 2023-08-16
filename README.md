@@ -12,10 +12,15 @@
 | https://asciinema.org/a/gGS32es4NIkjVR6PEDrVfTv3M                           | Brain-progression                                       |
 | https://asciinema.org/a/yoUsnoOd86ey4QLqu1U1eFBVq                           | Brain-prime                                             |
 
-| Description                                                             |                                                    |
-|-----------------------------------------------------------------------------|---------------------------------------------------------|
-|                            | Brain-even                                              |
-|                            | Brain-cslc                                              |
-|                            | Brain-gcd                                               |
-|                            | Brain-progression                                       |
-|                            | Brain-prime                                             |
+| Description                                                                           | Games                                         |
+|---------------------------------------------------------------------------------------|-----------------------------------------------|
+| Answer correctly three times - if the number is even, "yes", if not even, answer "no".| Brain-even                                    |
+| If the answer is wrong, the game will end                                             |                                               |
+| Add or multiply numbers three times correctly                                         | Brain-cslc                                    |
+| If the answer is wrong, the game will end                                             |                                               |
+| Three times correctly find the greatest common divisor                                | Brain-gcd                                     |
+| If the answer is wrong, the game will end                                             |                                               |
+| Three times find the missing number in progression                                    | Brain-progression                             |
+| If the answer is wrong, the game will end                                             |                                               |
+| Correctly answer three times - if the number is simple "yes", if not simple "no"      | Brain-prime                                   |
+| If the answer is wrong, the game will end                                             |                                               |
