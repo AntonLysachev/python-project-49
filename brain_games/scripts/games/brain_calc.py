@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games import compare
+from brain_games.calculation  import compare
 from brain_games import greetings
 
 
