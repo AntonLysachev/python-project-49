@@ -23,7 +23,7 @@ EVEN
 CALC
 [![asciicast](https://asciinema.org/a/t5hDUhvNBhnDTIEUuKXoHOcjY.svg)](https://asciinema.org/a/t5hDUhvNBhnDTIEUuKXoHOcjY)
 
-GCD
+GREATEST COMMON DIVISOR
 [![asciicast](https://asciinema.org/a/dQH3AxNVFmKrqSrpowBMTD1Fl.svg)](https://asciinema.org/a/dQH3AxNVFmKrqSrpowBMTD1Fl)
 
 PROGRESSION
