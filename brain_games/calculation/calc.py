@@ -1,7 +1,7 @@
 import random
 
 
-def calc():
+def game():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
     if (random.randint(1, 10)) % 2:

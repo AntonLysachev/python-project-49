@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.calculation import compare
-from brain_games import greetings
+from brain_games import engine
+from brain_games.calculation import calc
 
 
 def game():
-    name = greetings.greetings()
     print('What is the result of the expression?')
-    compare.compare(name, 'cac')
+    engine.compare(calc)
 
 
 def main():

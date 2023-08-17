@@ -1,7 +1,7 @@
 import random
 
 
-def progression():
+def game():
     rule = random.randint(2, 5)
     numb = random.randint(0, 9)
     start = random.randint(1, 100)

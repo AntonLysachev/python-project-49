@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.calculation import compare
-from brain_games import greetings
+from brain_games import engine
+from brain_games.calculation import even
 
 
 def game():
-    name = greetings.greetings()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    compare.compare(name, 'evn')
+    engine.compare(even)
 
 
 def main():

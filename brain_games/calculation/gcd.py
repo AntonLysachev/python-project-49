@@ -2,7 +2,7 @@ import math
 import random
 
 
-def gcd():
+def game():
     while (1):
         a = random.randint(1, 100)
         if a % 2:

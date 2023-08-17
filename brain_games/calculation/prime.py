@@ -1,7 +1,7 @@
 import random
 
 
-def prime():
+def game():
     numb = random.randint(1, 100)
     temp = numb - 1
 

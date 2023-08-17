@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.calculation import compare
-from brain_games import greetings
+from brain_games import engine
+from brain_games.calculation import progression
 
 
 def game():
-    name = greetings.greetings()
     print('What number is missing in the progression?')
-    compare.compare(name, 'prn')
+    engine.compare(progression)
 
 
 def main():
