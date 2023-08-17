@@ -3,6 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/75f94e09cbcde3ded791/maintainability)](https://codeclimate.com/github/AntonLysachev/python-project-49/maintainability)
 
+[![asciicast](https://asciinema.org/a/SCG0ZXeJPR0lwzf6PFaaYRlvG.svg)](https://asciinema.org/a/SCG0ZXeJPR0lwzf6PFaaYRlvG)
 
 | Asciinema DEMO                                                              | Name                                                    |
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
