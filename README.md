@@ -13,7 +13,7 @@
 | Three times find the missing number in progression                                    | Brain-progression                             |
 | Correctly answer three times - if the number is simple "yes", if not simple "no"      | Brain-prime                                   |
 
-DEMO
+---------------------------------------------------------------DEMO----------------------------------------------------------------------
 
 EVEN
 [![asciicast](https://asciinema.org/a/SCG0ZXeJPR0lwzf6PFaaYRlvG.svg)](https://asciinema.org/a/SCG0ZXeJPR0lwzf6PFaaYRlvG)
