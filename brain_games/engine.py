@@ -5,10 +5,11 @@ print('Welcome to the Brain Games!')
 name = prompt.string('May I have your name? ')
 print(f'Hello, {name}!')
 
+
 def compare(game):
     counter = 0
     while (counter < 3):
-        play=game.game()
+        play = game.game()
         quest = play[1]
         meaning = play[0]
         print(f'Question: {meaning}')

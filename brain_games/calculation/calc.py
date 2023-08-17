@@ -4,7 +4,7 @@ import random
 def game():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
-    choice = random.randint(1,9) % 3
+    choice = random.randint(1, 9) % 3
     match choice:
         case 0:
             result = num1 * num2
