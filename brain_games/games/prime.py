@@ -1,7 +1,7 @@
 import random
 
 
-description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def simple_or_not(numb):
