@@ -4,7 +4,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def generator():
+def generate_progression():
     prog = []
     start = random.randint(1, 100)
     rule = random.randint(2, 5)
@@ -19,7 +19,7 @@ def generator():
 
 def generate():
     numb = random.randint(0, 9)
-    progression = generator()
+    progression = generate_progression()
     right = progression[numb]
     progression[numb] = '..'
     question = ''
