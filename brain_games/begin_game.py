@@ -25,5 +25,4 @@ def play(game):
             break
         print('Correct!')
     else:
-        if i == 2:
-            print(f'Congratulations, {user}!')
+        print(f'Congratulations, {user}!')
