@@ -9,13 +9,13 @@ def play():
     choice = random.randint(1, 9) % 3
     match choice:
         case 0:
-            right_answer = num1 * num2
+            right = num1 * num2
             question = f'{num1} * {num2}'
         case 1:
-            right_answer = num1 - num2
+            right = num1 - num2
             question = f'{num1} - {num2}'
         case 2:
-            right_answer = num1 + num2
+            right = num1 + num2
             question = f'{num1} + {num2}'
-    data = (question, str(right_answer))
+    data = (question, str(right))
     return data

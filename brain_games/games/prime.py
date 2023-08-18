@@ -15,7 +15,7 @@ def simple_or_not(numb):
 
 def play():
     number = random.randint(1, 100)
-    right_answer = simple_or_not(number) and 'yes' or 'no'
+    right = simple_or_not(number) and 'yes' or 'no'
     question = number
-    data = (question, str(right_answer))
+    data = (question, str(right))
     return data

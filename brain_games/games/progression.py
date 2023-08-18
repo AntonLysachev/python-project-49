@@ -20,10 +20,10 @@ def generator():
 def play():
     numb = random.randint(0, 9)
     progression = generator()
-    right_answer = progression[numb]
+    right = progression[numb]
     progression[numb] = '..'
     question = ''
     for i in range(len(progression)):
         question += str(progression[i]) + ' '
-    data = (question, str(right_answer))
+    data = (question, str(right))
     return data

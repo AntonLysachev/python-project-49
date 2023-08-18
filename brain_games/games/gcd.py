@@ -19,7 +19,7 @@ def play():
         else:
             break
 
-    right_answer = math.gcd(a, b)
+    right = math.gcd(a, b)
     question = f'{a} {b}'
-    data = (question, str(right_answer))
+    data = (question, str(right))
     return data
