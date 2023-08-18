@@ -1,0 +1,21 @@
+import random
+
+description = 'What is the result of the expression?'
+
+
+def play():
+    num1 = random.randint(1, 20)
+    num2 = random.randint(1, 20)
+    choice = random.randint(1, 9) % 3
+    match choice:
+        case 0:
+            right_answer = num1 * num2
+            question = f'{num1} * {num2}'
+        case 1:
+            right_answer = num1 - num2
+            question = f'{num1} - {num2}'
+        case 2:
+            right_answer = num1 + num2
+            question = f'{num1} + {num2}'
+    data = (question, str(right_answer))
+    return data

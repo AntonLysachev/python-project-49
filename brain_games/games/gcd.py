@@ -2,7 +2,10 @@ import math
 import random
 
 
-def game():
+description = 'Find the greatest common divisor of given numbers.'
+
+
+def play():
     while (1):                      # Здесь я привожу значения к четному числу
         a = random.randint(1, 100)  # С нечетными числами ответ почти всегда - 1
         if a % 2:                   # Так игра немного интереснее
@@ -16,7 +19,7 @@ def game():
         else:
             break
 
-    result = math.gcd(a, b)
-    meaning = f'{a} {b}'
-    data = (meaning, str(result))
+    right_answer = math.gcd(a, b)
+    question = f'{a} {b}'
+    data = (question, str(right_answer))
     return data

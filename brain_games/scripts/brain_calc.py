@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-from brain_games import engine
-from brain_games.calculation import calc
+from brain_games import begin_game
+from brain_games.games import calc
 
 
 def game():
-    print('What is the result of the expression?')
-    engine.compare(calc)
+    begin_game.compare(calc)
 
 
 def main():
