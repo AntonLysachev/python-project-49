@@ -8,7 +8,7 @@ def is_prime(numb):
     if numb == 1:
         return False
     for i in range(2, int(numb ** 0.5 + 1)):
-        if not (numb % (i + 2)):
+        if not (numb % i):
             return False
     return True
 
