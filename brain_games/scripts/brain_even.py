@@ -4,7 +4,7 @@ from brain_games.games import even
 
 
 def game():
-    begin_game.compare(even)
+    begin_game.play(even)
 
 
 def main():

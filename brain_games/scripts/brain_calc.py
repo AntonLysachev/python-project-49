@@ -4,7 +4,7 @@ from brain_games.games import calc
 
 
 def game():
-    begin_game.compare(calc)
+    begin_game.play(calc)
 
 
 def main():

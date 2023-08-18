@@ -4,7 +4,7 @@ from brain_games.games import progression
 
 
 def game():
-    begin_game.compare(progression)
+    begin_game.play(progression)
 
 
 def main():

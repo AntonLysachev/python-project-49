@@ -17,7 +17,7 @@ def generator():
     return prog
 
 
-def play():
+def generate():
     numb = random.randint(0, 9)
     progression = generator()
     right = progression[numb]

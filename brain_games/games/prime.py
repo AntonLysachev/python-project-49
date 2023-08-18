@@ -13,7 +13,7 @@ def simple_or_not(numb):
     return True
 
 
-def play():
+def generate():
     number = random.randint(1, 100)
     right = simple_or_not(number) and 'yes' or 'no'
     question = number

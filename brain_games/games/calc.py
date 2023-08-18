@@ -3,7 +3,7 @@ import random
 description = 'What is the result of the expression?'
 
 
-def play():
+def generate():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
     choice = random.randint(1, 9) % 3

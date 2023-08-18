@@ -4,7 +4,7 @@ from brain_games.games import gcd
 
 
 def game():
-    begin_game.compare(gcd)
+    begin_game.play(gcd)
 
 
 def main():
