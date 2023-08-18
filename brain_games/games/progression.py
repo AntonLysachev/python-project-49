@@ -24,6 +24,6 @@ def generate():
     progression[numb] = '..'
     question = ''
     for i in range(len(progression)):
-        question += str(progression[i]) + ' '
+        question.join(f'{progression[i]} ')
     data = (question, str(right))
     return data
