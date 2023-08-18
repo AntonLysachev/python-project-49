@@ -1,8 +1,11 @@
 import prompt
 
+# решил приветствие вынести в отдельную функцию
+# на мой взгляд так понятнее за что отвечает каждый блок кода
 
-def greetings(description):                         # решил приветствие вынести в отдельную функцию
-    print('Welcome to the Brain Games!')            # на мой взгляд так понятнее за что отвечает каждый блок кода
+
+def greetings(description):
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(description.DESCRIPTION)
@@ -20,7 +23,7 @@ def play(game):
             print(f"'{answ}' is wrong answer ;(. Correct answer was '{right}'.")
             print(f"Let's try again, {user}!")
             break
-    else: 
+    else:
         print('Correct!')
         if i == 2:
             print(f'Congratulations, {user}!')
