@@ -23,7 +23,7 @@ def play(game):
             print(f"'{answ}' is wrong answer ;(. Correct answer was '{right}'.")
             print(f"Let's try again, {user}!")
             break
-    else:
         print('Correct!')
+    else:
         if i == 2:
             print(f'Congratulations, {user}!')
