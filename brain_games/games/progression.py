@@ -19,7 +19,7 @@ def generate_progression():
 
 def generate_round_data():
     progression = generate_progression()
-    random_index = random.randint(0, constant.SIZE-1)
+    random_index = random.randint(0, constant.SIZE - 1)
     right = progression[random_index]
     progression[random_index] = '..'
     question = ''
