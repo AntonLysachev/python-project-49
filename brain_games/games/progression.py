@@ -1,29 +1,28 @@
 import random
+from brain_games import constant
 
 
 DESCRIPTION = 'What number is missing in the progression?'
 
 
 def generate_progression():
-    prog = []
+    progression = []
     start = random.randint(1, 100)
     rule = random.randint(2, 5)
-    size = 10
-    for i in range(size):
+    for i in range(constant.SIZE):
         if i == 0:
-            prog.append(i + start)
+            progression.append(i + start)
         else:
-            prog.append(prog[i - 1] + rule)
-    return prog
+            progression.append(progression[i - 1] + rule)
+    return progression
 
 
-def generate():
-    numb = random.randint(0, 9)
+def generate_round_data():
     progression = generate_progression()
-    right = progression[numb]
-    progression[numb] = '..'
+    random_index = random.randint(0, constant.SIZE-1)
+    right = progression[random_index]
+    progression[random_index] = '..'
     question = ''
-    for i in progression:
-        question += str().join(f'{i} ')
-    data = (question, str(right))
-    return data
+    for i in progression:               # не понял как тут использовать map
+        question += str().join(f'{i} ')  # question = map(str.join, progression)
+    return question, str(right)         # на выходе адрес обекта

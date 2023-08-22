@@ -4,19 +4,18 @@ import random
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def generate():
-    num1 = random.randint(1, 20)
-    num2 = random.randint(1, 20)
+def generate_round_data():
+    number_a = random.randint(1, 20)
+    number_b = random.randint(1, 20)
     operator = random.choice('+-*')
     match operator:
         case '*':
-            right = num1 * num2
-            question = f'{num1} * {num2}'
+            right = number_a * number_b
+            question = f'{number_a} * {number_b}'
         case '-':
-            right = num1 - num2
-            question = f'{num1} - {num2}'
+            right = number_a - number_b
+            question = f'{number_a} - {number_b}'
         case '+':
-            right = num1 + num2
-            question = f'{num1} + {num2}'
-    data = (question, str(right))
-    return data
+            right = number_a + number_b
+            question = f'{number_a} + {number_b}'
+    return question, str(right)

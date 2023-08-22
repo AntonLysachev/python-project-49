@@ -8,7 +8,7 @@ Description
 In five games, you need to give the correct answer three times.
 If the answer is wrong, the game ends.
 
-# Установка игры есть в демо. Или я что то не так понял?
+
 -------------------------------------------------------------DEMO-------------------------------------------------------------
 
 
