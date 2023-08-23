@@ -19,13 +19,5 @@ def generate_round_data():
     random_index = random.randint(0, SIZE_PROGRESSION - 1)
     right = progression[random_index]
     progression[random_index] = '..'
-    question = ''
-    for i in progression:
-        question += str().join(f'{i} ')
-    return question, str(right)
-# не понял как тут использовать map
-# question = map(str.join, progression)
-# на выходе адрес обекта
-# при конвертации list(map(str.join, progression))
-# ошибка
-# TypeError: descriptor 'join' for 'str' objects doesn't apply to a 'int' object
+    question = list(map(str, progression))
+    return ' '.join(question), str(right)
