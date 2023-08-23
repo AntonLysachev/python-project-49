@@ -1,2 +1,0 @@
-ROUND = 3
-SIZE = 10
