@@ -3,12 +3,8 @@ from brain_games import game_engine
 from brain_games.games import prime
 
 
-def game():
-    game_engine.play(prime)
-
-
 def main():
-    game()
+    game_engine.play(prime)
 
 
 if __name__ == '__main__':
